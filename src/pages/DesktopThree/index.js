@@ -21,7 +21,7 @@ const DesktopThreePage = () => {
         comptype="Column"
       >
         <Column
-          className="items-center lg:pr-[301px] xl:pr-[345px] 2xl:pr-[388px] 3xl:pr-[465px] w-[100%]"
+          className="items-center w-[100%]"
           compid="62"
           comptype="Column"
         >
@@ -939,12 +939,12 @@ const DesktopThreePage = () => {
           </Row>
         </Column>
         <Column
-          className="items-end lg:mt-[18px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] lg:pl-[46px] xl:pl-[53px] 2xl:pl-[60px] 3xl:pl-[72px] w-[100%]"
+          className="overflow-auto items-start  lg:mt-[18px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] lg:pl-[46px] xl:pl-[53px] 2xl:pl-[60px] 3xl:pl-[72px] w-[100%]"
           compid="63"
           comptype="Column"
         >
           <List
-            className="lg:gap-[18px] xl:gap-[21px] 2xl:gap-[24px] 3xl:gap-[28px] grid grid-cols-4 min-h-[auto] rounded-radius20 w-[100%]"
+            className="lg:gap-[18px] xl:gap-[21px] 2xl:gap-[24px] 3xl:gap-[28px] grid grid-cols-4 min-h-[auto] rounded-radius20 w-[130%]"
             compid="204:767"
             comptype="List"
             orientation="horizontal"
@@ -1269,7 +1269,7 @@ const DesktopThreePage = () => {
           They Say it, We don't!
         </Text>
         <Column
-          className="items-center lg:mt-[38px] xl:mt-[44px] 2xl:mt-[50px] 3xl:mt-[60px] lg:pr-[301px] xl:pr-[345px] 2xl:pr-[388px] 3xl:pr-[465px] w-[100%]"
+          className="items-center lg:mt-[38px] xl:mt-[44px] 2xl:mt-[50px] 3xl:mt-[60px] w-[100%]"
           compid="64"
           comptype="Column"
         >
